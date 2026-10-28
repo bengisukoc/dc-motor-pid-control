@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dc-motor-pid-control"
+version = "0.1.0"
+description = "Physics-based DC motor and PID speed-control simulation"
+requires-python = ">=3.10"
+dependencies = ["matplotlib>=3.8,<4", "numpy>=1.26,<3", "pandas>=2.1,<3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
