@@ -1,0 +1,4 @@
+Controller,Rise time (s),Overshoot (%),Settling time (s),Final absolute error (rad/s),Load recovery time (s)
+P,,0.0000,,51.3819,
+PI,0.7760,7.0722,1.8310,0.6987,0.5190
+PID,0.7770,5.6828,1.7480,0.3241,0.4170
